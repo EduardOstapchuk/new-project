@@ -1,8 +1,152 @@
-.nav_socialc {
-    display: flex;
+section {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 224px;
+  margin-right: 157px;
 }
 
-.nav_socialc a {
-    text-decoration: none;
-    color: #8F8F8F;
+[type="search"] {
+  width: 301px;
+  height: 47px;
+  padding: 5px;
+  margin: 10px;
+  position: relative;
+  left: 18.5%;
+  border: none;
+  outline: none;
+}
+
+.nav_socialc img {
+  width: 23px;
+  height: 23px;
+  position: absolute;
+  top: 21%;
+  left: 36%;
+  cursor: pointer;
+}
+
+.socials_serch {
+  width: 340px;
+  height: 15px;
+  margin-right: 10%;
+  margin-top: 15px;
+}
+
+#socials {
+  text-decoration: none;
+  font-size: 14px;
+  color: #8f8f8f;
+  padding: 15px;
+  padding: 10px;
+}
+
+#socials:hover {
+  color: #f26c4f;
+}
+
+#socials img {
+  padding-right: 10px;
+  width: 14px;
+  height: 14px;
+}
+
+.bridge {
+  width: 955px;
+  height: 392px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 299px;
+  margin-right: 208px;
+}
+
+#brid {
+  width: 632px;
+  height: 392px;
+  background-image: url(img/bgk1.png);
+  background-repeat: no-repeat;
+  border-right: 10px solid #f26c4f;
+}
+
+#brid::after {
+  content: "";
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  transform: rotate(45deg);
+  background: #f26c4f;
+  right: 37.7%;
+  top: 32%;
+}
+
+#brid::before {
+  content: "";
+  position: absolute;
+  width: 312px;
+  height: 392px;
+  background: #373737;
+  right: 17.6%;
+}
+
+#good {
+  font-size: 16px;
+  color: #ffffff;
+  border: solid transparent;
+  border-width: 30px 32px 0;
+  background: #32354450;
+  border-bottom-width: 25px;
+  position: absolute;
+  bottom: 18.5%;
+  right: 39.5%;
+}
+
+#can {
+  width: 179px;
+  height: 63px;
+  font-size: 19px;
+  color: #ffffff;
+  position: absolute;
+  right: 23%;
+  top: 32%;
+}
+
+#dolor {
+  position: absolute;
+  width: 220px;
+  height: 104px;
+  color: #a7a7a7;
+  font-size: 12px;
+  right: 20.5%;
+  bottom: 43%;
+}
+
+#clock__black {
+  position: absolute;
+  right: 30%;
+  bottom: 42%;
+}
+
+#april {
+  position: absolute;
+  color: #a7a7a7;
+  font-size: 12px;
+  bottom: 42.3%;
+  right: 24.5%;
+  cursor: pointer;
+}
+
+.content__img {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-left: 299px;
+  margin-right: 220px;
+  padding: 5px;
+}
+
+#content__img_1,
+#content__img_2,
+#content__img_3 {
+  width: 270px;
+  height: 380px;
+  background: #ffffff;
 }
