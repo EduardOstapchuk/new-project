@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(img/bgk.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.head {
+    height: 65px;
+    width: 100%;
+    background: #373737;
+    display: flex;
+}
+
+.logo-top {
+    width: 81px;
+    height: 65px;
+    background: #F26C4F;
+    position: relative;
+    left: 299px;
+    cursor: pointer;
+}
+
+.logo-top::before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    background: #F26C4F;
+    position: absolute;
+    left: 70px;
+    top: 19px;
+    transform: rotate(45deg);
+}
+
+#logo {
+    font-size: 35px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+#name {
+    position: relative;
+    left: 110px;
+    top: -24px;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.top-menu {
+    height: 65px;
+    width: 100%;
+    background: #474747;
+}
+
+.top-menu a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 12px;
+}
+
+.top-menu a:hover {
+    padding-bottom: 22px;
+    color: #F26C4F;
+    border-bottom: 3px solid #F26C4F;
+}
+
+.top-menu ul {
+    list-style: none;
+    display: flex;
+    padding-top: 22px;
+    margin-left: 324px;
+
+}
+
+.top-menu li {
+    list-style: none;
+    margin-right: 30px;
+    border-right: 1px solid #767676;
+    padding-right: 20px;
+}
+
+.top-menu li:last-child {
+    border: none;
+}

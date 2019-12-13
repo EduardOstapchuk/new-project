@@ -1,0 +1,8 @@
+.nav_socialc {
+    display: flex;
+}
+
+.nav_socialc a {
+    text-decoration: none;
+    color: #8F8F8F;
+}
