@@ -1,0 +1,39 @@
+#footer {
+  height: 140px;
+  width: 100%;
+  background: #373737;
+  margin-top: 263px;
+}
+
+#footer ul {
+  list-style: none;
+  display: flex;
+  padding-top: 20px;
+  margin-left: 300px;
+}
+
+#footer a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 13px;
+}
+
+#footer a:hover {
+  color: #f26c4f;
+}
+
+#footer li {
+  list-style: none;
+  margin-right: 30px;
+}
+
+.footer_s {
+  width: 762px;
+  height: 32px;
+  color: #7e7e7e;
+  font-size: 11px;
+  line-height: 1.9;
+  position: relative;
+  left: 300px;
+  top: 25px;
+}

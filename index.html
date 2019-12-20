@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="header.css" />
     <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="footer.css">
   </head>
 
   <body>
@@ -26,44 +27,42 @@
           <li><a href="">Contact</a></li>
         </ul>
       </div>
-      <section>
-        <div class="nav_socialc">
-          <form action="" method="GET">
-            <input
-              type="search"
-              name="s"
-              placeholder="Search for somthing here"
-            />
-          </form>
-          <img src="svg/clock .svg" alt="" />
-        </div>
-        <div class="socials_serch">
-          <a id="socials" href="#"
-            ><img src="social/twitter.svg" alt="" />Twitter</a
-          >
-          <a id="socials" href="#"
-            ><img src="social/facebook.svg" alt="" />Facebook</a
-          >
-          <a id="socials" href="#"><img src="social/rss.svg" alt="" />RSS</a>
-          <a id="socials" href="#"><img src="social/mail.svg" alt="" />Mail</a>
-        </div>
-      </section>
+      <main id="block1">
 
-      <div class="bridge">
-        <div id="brid">
-          <span id="good">Good Inc. image caption to go here</span>
-          <span id="can"
-            >Housework can't kill you, but why take a chance?
-          </span>
-          <span id="dolor"
-            >Quisque accumsan eleifend dolor, nec bibendum nibh ultricies at.
-            Nunc convallis risus sit amet augue bibendum non lobortis eros
-            interdum. Maecenas quis risus felis, at volutpat elit...
-          </span>
-          <img id="clock__black" src="svg/clock_black.svg" alt="" />
-          <span id="april">14th April 2013</span>
+        <div id="d-search">
+            <form action="" method="POST">
+                <input type="text" class="search" placeholder="Search for somthing here">
+                <img src="svg/clock .svg" alt="clock" class="clockred">
+            </form>
         </div>
+
+        <div id="socials">
+            <a href="#" class="social"><img src="social/twitter.svg" alt="">Twitter</a>
+            <a href="#" class="social"><img src="social/facebook.svg" alt="">Facebook</a>
+            <a href="#" class="social"><img src="social/rss.svg" alt="">RSS</a>
+            <a href="#" class="social"><img src="social/mail.svg" alt="">Mail</a>
+        </div>
+    </main>
+
+    <main id="block2">
+      <div id="bridge">
+          <img src="img/bgk1.png" alt="">
+          <span class="goodinc">Good Inc. image caption to go here</span>
       </div>
+
+      
+
+      <div id="description">
+          <p class="desc">Housework can't kill you, but why take a chance? </p>
+          <span class="descr">
+              Quisque accumsan eleifend dolor, nec bibendum nibh ultricies at. Nunc convallis risus sit amet augue
+              bibendum
+              non lobortis eros interdum. Maecenas quis risus felis, at volutpat elit...
+          </span>
+          <span class="time"><img src="img/clock1.svg" alt="">14th April 2013</span>
+
+      </div>
+  </main>
       <div class="content__img">
         <div id="content__img_1">
           <div id="triangle"></div>
@@ -103,13 +102,14 @@
                 <li><a href="#" class="social1">14th January 2013</a></li>
                 <li><a href="#" class="social1">32 Comments</a></li>
                 <li>
-                  <a href="#" class="social1"
-                    ><img src="svg/Shape 3.svg" alt="" />
+                  
+                    <div class="stars"> 
+                      <img src="svg/Shape 3.svg" alt="" />
                     <img src="svg/Shape 3.svg" alt="" /><img
                       src="svg/Shape 3.svg"
                       alt=""
-                    /><img src="svg/Shape 3.svg" alt="" />124 Votes</a
-                  >
+                    /><img src="svg/Shape 3.svg" alt="" /><a href="#" class="social1">124 Votes</a></div>
+                   
                 </li>
               </ul>
             </div>
@@ -130,11 +130,13 @@
                 <li><a href="#" class="social1">312 Comments</a></li>
                 <li>
                   <a href="#" class="social1"
-                    ><img src="svg/Shape 3.svg" alt="" />
+                    >
+                    
+                    <img src="svg/Shape 3.svg" alt="" />
                     <img src="svg/Shape 3.svg" alt="" /><img
                       src="svg/Shape 3.svg"
                       alt=""
-                    /><img src="svg/Shape 3.svg" alt="" />1254 Votes</a
+                    />1254 Votes</a
                   >
                 </li>
               </ul>
@@ -228,11 +230,40 @@
           <h3 class="can">Housework can't kill you, but why take a chance?  </h3>
           <span id="can__s">Quisque accumsan eleifend dolor, nec bibendum nibh ultricies at.
              Nunc convallis risus sit amet augue bibendum non lobortis eros interdum... </span>
+          <span id="can__s">10th January 2013 </span>
+        </div>
+
+        <div class="info10">
+          <h3 class="can">My fake plants died because I did not pretend to water them. 
+          </h3>
+          <span id="can__s">Quisque accumsan eleifend dolor, nec bibendum nibh ultricies at.
+             Nunc convallis risus sit amet augue bibendum non lobortis eros interdum... </span>
           <span id="can__s">13th January 2013</span>
         </div>
+
       </main>
 
       <main class="block2">
+       
+        <div id="info11">
+          <div class="about">
+            <h4 id="about_p">About Us</h4>
+            <p class="about_b">(Blaz Robar)</p>
+          </div>
+          <div class="how">
+            <h4 id="about_p">How to</h4>
+            <p class="about_o">(Jamie Oliver)</p>
+          </div>
+          <div class="write">
+            <h4 id="about_p">Write for us</h4>
+            <p class="about_bi">(Bill Muarry)</p>
+          </div>
+          <div class="video">
+            <h4 id="about_p">Video Testimonails</h4>
+            <p class="about_j">(John Smith)</p>
+          </div>
+        </div>
+
       <div class="read">
         <h3 class="more">Read more</h3>
         <a href="" class="plus__radius"> <img src="svg/plus__radius.svg" alt="" ></a>
@@ -285,7 +316,21 @@
            Phasellus faucibus rhoncus</span>
       </div>
     </main>
-
     </main>
+
+    <footer>
+      <div id="footer">
+          <ul>
+            <li><a href="">About us</a></li>
+            <li><a href="">Footer links here</a></li>
+            <li><a href="">Privacy</a></li>
+            <li><a href="">Page links also</a></li>
+          </ul>
+
+          <span class="footer_s">As cross as a hoon my built like a op shop. We're going bored sh*tless heaps she'll be right budgie smugglers. 
+            Grab us a durry mate she'll be right dunny rat. <br>
+             She'll be right larrikin with skite. As stands out like kero it'll be truckie.</span>
+        </div>
+    </footer>
   </body>
 </html>

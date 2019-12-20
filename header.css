@@ -1,18 +1,19 @@
 @font-face {
-  font-family: "Nexa";
-  src: local("Nexa Light"), local("NexaLight"),
-    url("nexalight.woff2") format("woff2"), url("nexalight.woff") format("woff"),
-    url("nexalight.ttf") format("truetype");
-  font-weight: 300;
-  font-style: normal;
+  font-family: "fontc9f309b3d47969ecac64a77a6c672594";
+
+  src: url("https://nomail.com.ua/files/eot/c9f309b3d47969ecac64a77a6c672594.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://nomail.com.ua/files/woff/c9f309b3d47969ecac64a77a6c672594.woff")
+      format("woff"),
+    url("https://nomail.com.ua/files/woff2/c9f309b3d47969ecac64a77a6c672594.woff2")
+      format("woff2");
 }
+
 @font-face {
-  font-family: "Nexa";
-  src: local("Nexa Bold"), local("NexaBold"),
-    url("nexabold.woff2") format("woff2"), url("nexabold.woff") format("woff"),
-    url("nexabold.ttf") format("truetype");
-  font-weight: 700;
-  font-style: normal;
+  font-family: "NexaBold";
+  src: local("NexaBold"),
+    url("https://nomail.com.ua/files/woff/c9f309b3d47969ecac64a77a6c672594.woff")
+      format("woff");
 }
 
 * {
@@ -54,6 +55,7 @@ body {
 }
 
 #logo {
+  font-family: "NexaBold";
   font-size: 35px;
   color: #ffffff;
   text-align: center;
