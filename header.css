@@ -22,9 +22,14 @@
 }
 
 body {
-  background-image: url(img/bgk.png);
-  background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 100% 100%;
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+  box-sizing: border-box;
+  background: #ebebeb;
+  font-family: arialMT, AdobeInvisFont, MyriadPro-Regular;
+  font-weight: 500;
 }
 
 .head {
@@ -39,7 +44,7 @@ body {
   height: 65px;
   background: #f26c4f;
   position: relative;
-  left: 299px;
+  left: 318px;
   cursor: pointer;
 }
 
@@ -91,7 +96,7 @@ body {
   list-style: none;
   display: flex;
   padding-top: 22px;
-  margin-left: 324px;
+  margin-left: 335px;
 }
 
 .top-menu li {
